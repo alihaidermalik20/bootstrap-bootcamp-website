@@ -1,0 +1,6 @@
+/* to put a height of 60px at the very top so that 
+the showcase content is moved down a bit so the fixed-top navbar doesn't cover it */
+body::before {
+    content: '';
+    height: 60px;
+}
